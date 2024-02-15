@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component // 스프링 빈 자동 등록 컴포넌트
 public class MemberServiceImpl implements MemberService {
     private final MemberRepository memberRepository;
+
     @Autowired // 의존성 주입
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;

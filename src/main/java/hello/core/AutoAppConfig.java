@@ -12,4 +12,5 @@ import org.springframework.context.annotation.FilterType;
                 type = FilterType.ANNOTATION, classes = Configuration.class))
 public class AutoAppConfig {
 
+
 }
